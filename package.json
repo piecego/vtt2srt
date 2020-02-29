@@ -1,0 +1,16 @@
+{
+  "name": "@piecego/vtt2srt",
+  "version": "1.0.0",
+  "description": "Conver WebVTT(The Web Video Text Tracks Format, aka html5 video subtitles) into SubRip SRT.",
+  "main": "src/index.js",
+  "repository": "https://github.com/piecego/vtt2srt.git",
+  "author": "piecego",
+  "license": "MIT",
+  "bin": "src/index.js",
+  "type": "module",
+  "dependencies": {
+    "pumpify": "^2.0.1",
+    "split2": "^3.1.1",
+    "through2": "^3.0.1"
+  }
+}
